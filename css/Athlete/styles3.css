@@ -1,0 +1,95 @@
+body {
+    background-image: url('/Photos/Athlete/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+.left {
+    background-color: orange; 
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 11px;
+    cursor: pointer;
+   margin-left: 505px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.left:hover {
+    background-color: black;
+    color: orange;
+  }
+
+  .right {
+    background-color: gray; 
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 11px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 13%;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+.right:hover {
+    background-color: white;
+    color: gray;
+  }
+
+.container {
+    background-color: black;
+    color: orange;
+    margin-top: 160px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+}
+
+h1 {
+    margin-left: 55px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+input {
+    border-radius: 16px;
+    margin-left: 30px;
+    width: 280px;
+    height: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+label {
+    margin-left: 135px;
+
+}
+
+.mid {
+    background-color: orange; 
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 11px;
+    cursor: pointer;
+   margin-left: 135px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mid:hover {
+    background-color: white;
+    color: orange;
+  }

@@ -1,0 +1,197 @@
+body
+{
+    background: url("/Photos/Admin/third_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    font-family: serif;
+    
+}
+
+.header
+{
+    
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.mid
+{
+   display: flex;
+}
+
+
+.meal_plan
+{
+    
+    color:white;
+    font-size: 35px;
+}
+
+
+.container
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    width: 100%;
+    height: 600px;
+}
+
+.receipt_holder
+{
+    height: 300px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: white;
+}
+.title_holder
+{
+    
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+
+}
+
+.left
+{
+   display: flex;
+   margin-left: 15px;
+}
+
+.ring
+{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+}
+
+.meal_plan
+{
+    font-size: 30px;
+    color: white;
+}
+.right
+{
+    display: flex;
+    margin-right: 15px;
+}
+
+.back_holder
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 1280px;
+    
+}
+
+.back_button
+{
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid;
+    border-color: coral;
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+.result_holder
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 400px;
+    width: 100%;
+}
+.tableHolder
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.table
+{
+    margin-top: 30px;
+    width: 100%;
+}
+
+th
+{
+    padding: 0px 100px;
+    border-bottom: 2px solid black;
+    
+}
+
+td
+{
+    padding: 0px 100px;
+}
+.table td
+{
+    padding-top: 20px;
+    
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.athlete
+{
+    color: #ff914d;
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.exit_button
+{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff914d;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.exit_holder
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.exit_holder:hover
+{
+    transform: scale(1.2);
+}
+

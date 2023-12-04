@@ -1,0 +1,133 @@
+body
+{
+    background: url("/Photos/Admin/bgSec.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    font-family: serif;
+    
+}
+
+.header
+{
+    
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left
+{
+    
+   margin-left: 100px;
+    margin-top: 100px;
+    
+}
+
+.mid
+{
+    
+    padding-right: 50px;
+    padding-inline-start: 50px;
+    margin-top: 150px;
+}
+
+.right
+{
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.AtlhleteButton
+{
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color:#FF8B13;
+    color:black;
+    font-size: 25px;
+}
+
+.AdminButton
+{
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+
+}
+
+.container
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 200px;
+}
+
+.holder
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    height: 300px;
+    width:  500px;
+}
+
+.Atlhlete_Signup_button
+{
+    height: 60px;
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FF8B13;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 200px;
+    font-size: 25px;
+}
+
+.Atlhlete_logIn_button
+{
+    height: 60px;
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-bottom: 200px;
+    font-size: 25px;
+}
+
+.AtlhleteButton:hover
+{
+    transform: scale(1.1);
+}
+
+.AdminButton:hover
+{
+    transform: scale(1.1);
+}
+
+.Atlhlete_Signup_button:hover
+{
+    transform: scale(1.1);
+}
+
+.Atlhlete_logIn_button:hover
+{
+    transform: scale(1.1);
+}

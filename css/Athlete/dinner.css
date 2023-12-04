@@ -1,0 +1,157 @@
+body
+{
+    background: url("/Photos/Admin/third_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    font-family: serif;
+    
+}
+
+.header
+{
+    
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.left
+{
+    
+   margin-left: 100px;
+    
+}
+
+.mid
+{
+    margin-right: 640px;
+}
+
+
+.admin
+{
+    
+    color:white;
+    font-size: 25px;
+}
+
+.meal_plan
+{
+    
+    color:white;
+    font-size: 35px;
+}
+
+.ring
+{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+}
+
+.holder
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.subtitle_holder
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: auto;
+   
+}
+
+.subtitle
+{
+    color:white;
+    font-size: 20px;
+}
+
+
+.container
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.back_holder
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 1280px;
+    
+}
+
+.back_button
+{
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid;
+    border-color: coral;
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+
+.first_container
+{
+    background-color: azure;
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.first_holder
+{
+    height: 100px;
+    width: 100%;
+}
+
+.submit_holder
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.submit_button
+{
+    margin-top: 50px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff914d;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.submit_button:hover
+{
+    transform: scale(1.2);
+}
+
+.back_button:hover
+{
+    transform: scale(1.2);
+}
+

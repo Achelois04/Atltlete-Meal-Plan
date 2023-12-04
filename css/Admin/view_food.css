@@ -1,0 +1,217 @@
+body
+{
+    background: url("/Photos/Admin/third_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    font-family: serif;
+    
+}
+
+.header
+{
+    
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left
+{
+    
+   margin-left: 100px;
+    margin-top: 100px;
+    
+}
+
+.mid
+{
+
+    margin-top: 100px;
+}
+
+.right
+{
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.admin
+{
+    
+    color:white;
+    font-size: 25px;
+}
+
+.meal_plan
+{
+    
+    color:white;
+    font-size: 35px;
+}
+
+.ring
+{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+}
+
+.container
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    height: auto;
+}
+
+.back_holder
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-bottom: 50px;
+    margin-left: 1280px;
+    
+}
+
+.back_button
+{
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid;
+    border-color: coral;
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+
+.form_holder
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width:  700px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+.title_holder
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width:  100%;
+    
+}
+
+.title
+{
+    color:black;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.input_holder
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width:  100%;
+    
+}
+
+.name
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width:  100%;
+
+}
+
+.first_input
+{
+    color:black;
+    font-size: 20px;
+}
+
+.second_input
+{
+    color:black;
+    font-size: 20px;
+}
+
+
+
+.food
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width:  100%;
+    margin-left: 40px;
+}
+
+.textfield
+{
+    height: 30px;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.search_holder
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width:  100%;
+    
+}
+
+.search_button
+{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border:none;
+    background-color: #FF8B13;
+    color: black;
+    margin-top: 20px;
+    margin-left: 450px;
+}
+
+.search_button:hover
+{
+    transform: scale(1.1);
+}
+.back_button:hover
+{
+    transform: scale(1.1);
+}

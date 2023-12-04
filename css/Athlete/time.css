@@ -1,0 +1,168 @@
+body
+{
+    background: url("/Photos/Admin/third_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    font-family: serif;
+    
+}
+
+.header
+{
+    
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.left
+{
+    
+   margin-left: 100px;
+    
+}
+
+.mid
+{
+    margin-right: 580px;
+}
+
+
+.icon
+{
+    
+    color:white;
+    font-size: 25px;
+}
+
+.meal_plan
+{
+    
+    color:white;
+    font-size: 35px;
+}
+
+.ring
+{
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+}
+
+.holder
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.subtitle_holder
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: auto;
+   
+}
+
+.subtitle
+{
+    color:white;
+    font-size: 20px;
+}
+
+
+.container
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 200px;
+    height: auto;
+}
+
+.option_holder
+{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.breakfast_holder
+{
+    display: flex;
+}
+
+.lunch_holder
+{
+    display: flex;
+}
+
+.dinner_holder
+{
+    display: flex;
+}
+.breakfast_button
+{
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.lunch_button
+{
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    font-size: 20px;
+    background-color: #FF8B13;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.dinner_button
+{
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background-color:dimgrey;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.breakfast_button:hover
+{
+    transform: scale(1.1);
+}
+
+.lunch_button:hover
+{
+    transform: scale(1.1);
+}
+
+.dinner_button:hover
+{
+    transform: scale(1.1);
+}
